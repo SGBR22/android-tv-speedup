@@ -1,0 +1,26 @@
+# System and Tool binaries (downloaded via bootstrap.ps1)
+tools/
+*.exe
+*.dll
+
+# Application packages (APKs) - keeps repo lightweight and clean
+apks/
+*.apk
+
+# Device dumps, logs and temporary files
+logs/
+*.log
+*.txt
+*.tmp
+
+# Local configurations
+*.local.json
+.config.json
+
+# IDE and OS files
+.idea/
+.vscode/
+.history/
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
